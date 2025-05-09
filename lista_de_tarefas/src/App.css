@@ -1,0 +1,44 @@
+*{
+  box-sizing: none;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 8vw;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkUvhi-mYdaquhn2WlKlHKiP6VEQQ0izxhKg&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  gap: 30px
+}
+hr{
+  color: white ;
+  width: 100vw;
+}
+
+.criarTarefa{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 50vw;
+}
+.criarTarefa input{
+  width: 20vw;
+  height: 3vh;
+  border-radius: 8px;
+}
+
+.criarTarefa button{
+  width: 80px;
+  border-radius: 8px;
+
+}
