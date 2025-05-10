@@ -1,0 +1,21 @@
+.list-tarefas h2{
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.list-tarefas ol{
+    list-style-type: decimal;
+    padding: 20px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.list-tarefas ol li{
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.list-tarefas ol li:last-child{
+    border-bottom: none;
+}
